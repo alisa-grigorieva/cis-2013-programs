@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>CIS 2013 Final Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="gradeDOM.css" />
+    <script src="gradeDOM.js"></script>
+</head>
+
+<body>
+        <div id="content">
+            <h1>CIS 2013 Grade Calculator</h1>
+            <p>
+                Enter the values requested below and click "Calculate".
+            </p>
+    
+            <label for="homework_points">Final Homework Points:</label>
+            <input type="text" id="homework_points" />
+            <br />
+    
+            <label for="midterm_points">Total Midterm Points:</label>
+            <input type="text" id="midterm_points" />
+            <br />
+            
+            <label for="final_points">Total Final Points:</label>
+            <input type="text" id="final_points" />
+            <br />
+
+            <p >
+                Enter 0 for Pass/Fail. Enter 1 for Letter Grade.
+            </p>
+
+            <label for="grading_option">Enter Course Grade Option:</label>
+            <input type="text" id="grading_option" />
+            <br />
+
+            <label>&nbsp;</label>
+            <input type="button" id="calc" value="Calculate" />
+            <br />
+
+            <label for="final_grade">Your Final Grade:</label>
+            <input type="text" id="final_grade" disabled="disabled" />
+            <br><br>
+        </div>
+
+        <img style="margin:0px auto; display:block" src="catGradeImage.jpg">
+        <br />
+</body>
+</html>

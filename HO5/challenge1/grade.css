@@ -1,0 +1,28 @@
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #FFFFFF;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+    width: 450px;
+}
+
+p {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
