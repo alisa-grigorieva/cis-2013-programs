@@ -25,7 +25,7 @@ var fixPrinter = function()
     var boolRecognised = $("not_recognised").selected;  ////returns a value of true only when the not_recognized html id is selected from the dropdown menu
 
     //enter your code here and don't forget to send the output to the DOM
-    switch (true) 
+    switch (true) //switch case that takes into account for all 8 possible scenarios
     {
         case boolPrinting === true && boolRedLight === true && boolRecognised === true:
             stringOutput = stringMessage2 + "\n" + stringMessage3 + "\n" + stringMessage4;
