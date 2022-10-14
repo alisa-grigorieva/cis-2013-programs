@@ -25,7 +25,7 @@ var fixPrinter = function()
     var boolRecognised = $("not_recognised").selected;  ////returns a value of true only when the not_recognized html id is selected from the dropdown menu
 
     //enter your code here and don't forget to send the output to the DOM
-    if (boolPrinting === true)
+    if (boolPrinting === true) //Program starts here if the printer is not printing
     {
         if (boolRedLight === true)
         {
@@ -50,7 +50,7 @@ var fixPrinter = function()
             }
         }
     }
-    else
+    else //Program starts here if the printer is printing
     {
         if (boolRedLight === true)
         {
