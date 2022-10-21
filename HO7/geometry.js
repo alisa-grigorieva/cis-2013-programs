@@ -4,7 +4,7 @@ var $ = function (id)
     return document.getElementById(id);
 };
 
-//this function performs all the circle, triangle, and circle calculations and prints the results
+//this function performs all of the rectangle, triangle, and circle calculations and prints the results
 var do_it = function () 
 {
 	var floatRectWidth = parseFloat($("rect_width").value);
