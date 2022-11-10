@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 215, 221);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    width: 700px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    border: 1px;
+}
+
+h1 {
+	text-align: center;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input{
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+fieldset {
+    border: white;
+}
+
+br {
+    clear: left;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+   <title>The Number Guessing Game (with input validation)</title>
+   <link rel="stylesheet" type="text/css" href="guess.css" />
+   <script src="guess.js"></script>
+</head>
+
+<body>
+   <div id="content">
+   <section>
+        <h1>Number Guessing Game! Have fun :3</h1>
+   </section>
+        <p>INSTRUCTIONS</p>
+        <p>Please enter your range. If you want to quit the game, enter -1.</p>
+        <p>For your range, your minimum must be greater than or equal to 0 and your maximum must be at least 2 more than the minimum.</p>
+        
+        <textarea rows="4" cols="60" id="output" placeholder="Enter your min and max, then hit START!" disabled></textarea>
+        </br>
+        
+        <label for="int_min">Minimum number in range:</label>
+        <input type="text" id="int_min"/><br />
+        
+        <label for="int_max">Maximum number in range:</label>
+        <input type="text" id="int_max"/><br />
+
+        </br>
+        <label>&nbsp;</label>
+        <input type="button" id="start" value="START"/>
+        </br></br>
+
+        </br>
+        <p>Note: to get the max score, you must get the right number in one try!</p>
+        </br>
+
+        <img src="https://cdn.discordapp.com/attachments/972559903837261886/1030576404045246624/B48537EE-3AF3-4578-9FD9-39FAB6645A56.gif" class="center" alt="big mouth cat" class="img-rounded">
+
+        
+   </div>
+</body>
