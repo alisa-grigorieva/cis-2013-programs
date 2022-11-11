@@ -69,7 +69,7 @@ var startProgram = function()
             }
             if(intGuess === intRandom) //user's guess is correct!
             {
-                alert("Congratualtions! Your guess of " + intGuess + " is the right number: " + intRandom + "!");
+                alert("Congratulations! Your guess of " + intGuess + " is the right number: " + intRandom + "!");
                 $("int_min").value = "";
                 $("int_max").value = "";
                 $("output").value = "Congrats! It took you " + (intCount+1) + " times to guess the number. Your score is " + 
